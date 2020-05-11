@@ -1,1 +1,2 @@
 学习git
+git commit --all -m “说明”
