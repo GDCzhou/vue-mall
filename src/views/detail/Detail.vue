@@ -1,6 +1,6 @@
 <template>
   <div id="detail">
-    <div>{{$store.cartList}}</div>
+    <div>{{this.$store.cartList}}</div>
   <detail-nav-bar class="detail-nav" @titleClick="titleClick" ref="detailNav"></detail-nav-bar>
     <scroll class="content" ref="scroll" :probe-type="3" @scroll="contentScroll">
       <detail-swiper :top-images="topImages"></detail-swiper>

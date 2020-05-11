@@ -91,6 +91,8 @@
         window.setTimeout(() => {
           // 1.校验正确的位置
           this.swiperStyle.transition = '0ms';
+          console.log(this.currentIndex);
+          console.log(this.slideCount)
           if (this.currentIndex >= this.slideCount + 1) {
             this.currentIndex = 1;
             this.setTransform(-this.currentIndex * this.totalWidth);
